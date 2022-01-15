@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF")
+    format("opentype");
+}
+/* @font-face {
+  font-family: "SF Pro Display";
+  src: url("sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: bolder;
+}
+ @font-face {
+  font-family: "SF Pro Display";
+  src: url("sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF")
+    format("opentype");
+  font-weight: bold;
+}  */
+
+* {
+  font-family: "SF Pro Display";
+}
+
+body {
+  margin: 0px;
+}
+
+.main {
+  background-image: url("images/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 900px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.main a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  padding-top: 50px;
+  height: 40px;
+}
+
+li {
+  display: inline;
+}
+
+.simp {
+  margin-top: 5px;
+}
+
+.logo {
+  display: inline;
+  height: 40px;
+  margin: 0px 20px;
+}
+
+.header .check {
+  background-color: #b7eaaf;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 90px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #f0ffee;
+  font-weight: bold;
+}
+
+strong {
+  color: #d2ffcb;
+}
+.title p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.video_button {
+  display: flex;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: white;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.video_button:hover {
+  background-color: white;
+  color: black;
+}
